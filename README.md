@@ -59,8 +59,9 @@ Run the Project:
 Bash
 
 npm run dev
-The project will be live at http://localhost:5173.
+The project will be live at http://localhost:8080/
 
 📝 License
 This project is licensed under the MIT License.
+
 
