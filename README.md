@@ -34,18 +34,13 @@ Node.js and npm
 
 Git
 
-1. Clone the Repository:
-
-Bash
-
-git clone https://github.com/piyush-eon/travelogic-gemini.git
-cd travelogic-gemini
-2. Install Dependencies:
+Install Dependencies:
 
 Bash
 
 npm install
-3. Set up API Keys:
+
+Set up API Keys:
 
 This project requires API keys for both Gemini and SerpAPI.
 
@@ -59,7 +54,7 @@ VITE_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 VITE_SERPAPI_API_KEY="YOUR_SERPAPI_API_KEY"
 Important: Do not commit your .env file to GitHub. Add .env to your .gitignore file.
 
-4. Run the Project:
+Run the Project:
 
 Bash
 
@@ -68,3 +63,4 @@ The project will be live at http://localhost:5173.
 
 📝 License
 This project is licensed under the MIT License.
+
