@@ -1,69 +1,70 @@
-# Welcome to your Lovable project
+🌐 AI Travel Planner
+This is an AI-powered web application that generates custom travel itineraries based on user preferences. The project leverages Google's Gemini API to create detailed and personalized travel plans. It also includes an integration with SerpAPI to fetch real-time flight information, if requested.
 
-## Project info
+✨ Features
+AI-Powered Itinerary: Generates a detailed travel plan based on user inputs such as destination, dates, budget, and interests.
 
-**URL**: https://lovable.dev/projects/40cee917-e05a-4a2b-afde-113ff710ac5b
+Customizable Preferences: Allows users to input all necessary information for their trip to get a tailored plan.
 
-## How can I edit this code?
+Live Flight Information: Integrates with SerpAPI to display real flight options as part of the itinerary.
 
-There are several ways of editing your application.
+Modern UI: A clean and responsive user interface built with shadcn-ui and Tailwind CSS.
 
-**Use Lovable**
+🛠️ Technologies Used
+Frontend: React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/40cee917-e05a-4a2b-afde-113ff710ac5b) and start prompting.
+Build Tool: Vite
 
-Changes made via Lovable will be committed automatically to this repo.
+Language: TypeScript
 
-**Use your preferred IDE**
+Styling: Tailwind CSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+UI Components: shadcn-ui
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+APIs:
 
-Follow these steps:
+Google Gemini API: For AI-driven travel plan generation.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+SerpAPI: For fetching live flight data.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🚀 Getting Started
+To run this project locally, you need to have the following installed:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Node.js and npm
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Git
+
+1. Clone the Repository:
+
+Bash
+
+git clone https://github.com/piyush-eon/travelogic-gemini.git
+cd travelogic-gemini
+2. Install Dependencies:
+
+Bash
+
+npm install
+3. Set up API Keys:
+
+This project requires API keys for both Gemini and SerpAPI.
+
+Create a new file named .env in the root of your project directory.
+
+Add your API keys to this file in the following format:
+
+Bash
+
+VITE_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+VITE_SERPAPI_API_KEY="YOUR_SERPAPI_API_KEY"
+Important: Do not commit your .env file to GitHub. Add .env to your .gitignore file.
+
+4. Run the Project:
+
+Bash
+
 npm run dev
-```
+The project will be live at http://localhost:5173.
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/40cee917-e05a-4a2b-afde-113ff710ac5b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+📝 License
+This project is licensed under the MIT License.
